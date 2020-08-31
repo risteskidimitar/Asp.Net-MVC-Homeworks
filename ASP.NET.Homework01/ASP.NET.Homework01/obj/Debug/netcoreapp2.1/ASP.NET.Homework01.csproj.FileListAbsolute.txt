@@ -39,3 +39,4 @@ D:\SEDC_19\08_Asp.Net-MVC\Homeworks\Asp.Net-MVC-Homeworks\ASP.NET.Homework01\ASP
 D:\SEDC_19\08_Asp.Net-MVC\Homeworks\Asp.Net-MVC-Homeworks\ASP.NET.Homework01\ASP.NET.Homework01\obj\Debug\netcoreapp2.1\ASP.NET.Homework01.pdb
 D:\SEDC_19\08_Asp.Net-MVC\Homeworks\Asp.Net-MVC-Homeworks\ASP.NET.Homework01\ASP.NET.Homework01\obj\Debug\netcoreapp2.1\ASP.NET.Homework01.genruntimeconfig.cache
 D:\SEDC_19\08_Asp.Net-MVC\Homeworks\Asp.Net-MVC-Homeworks\ASP.NET.Homework01\ASP.NET.Homework01\obj\Debug\netcoreapp2.1\ASP.NET.Homework01.csproj.CopyComplete
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\Asp.Net-MVC-Homeworks\ASP.NET.Homework01\ASP.NET.Homework01\obj\Debug\netcoreapp2.1\ASP.NET.Homework01.csprojAssemblyReference.cache

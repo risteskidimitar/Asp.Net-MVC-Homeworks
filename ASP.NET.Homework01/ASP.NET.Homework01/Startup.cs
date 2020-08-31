@@ -57,7 +57,7 @@ namespace ASP.NET.Homework01
 
                 routes.MapRoute(
                     name: "route1",
-                    template: "product/get-product/3/",
+                    template: "product/get-product/{id:int}",
                     defaults: new { Controller = "Product", action = "GetProductById" });
 
                 routes.MapRoute(
