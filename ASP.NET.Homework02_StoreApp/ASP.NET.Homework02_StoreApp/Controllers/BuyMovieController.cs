@@ -36,7 +36,12 @@ namespace ASP.NET.Homework02_StoreApp.Controllers
                 Email = getMovie.Email,
                 Phone = getMovie.Phone
             };
-            MovieDatabase.Users.Add(user);
+
+            if (MovieDatabase.Users.Where(u => u.Email == user.Email ) == null)
+            {
+                MovieDatabase.Users.Add(user);
+            }
+            
 
             var stats = new MovieStatsHistory()
             {
