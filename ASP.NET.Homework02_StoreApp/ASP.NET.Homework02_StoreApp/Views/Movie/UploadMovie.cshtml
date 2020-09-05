@@ -29,8 +29,8 @@
     <label asp-for="@Model.Genre"></label>
     <select asp-for="@Model.Genre" asp-items="Html.GetEnumSelectList<Genre>()" /><br />
 
-    <label asp-for="@Model.MacedonianSubtitle"></label>
-    <input asp-for="@Model.MacedonianSubtitle" /> @Html.DisplayNameFor(model => model.MacedonianSubtitle)
+    <label asp-for="@Model.MacedonianSubtitle"></label><br />
+    <input asp-for="@Model.MacedonianSubtitle" /> @Html.DisplayNameFor(model => model.MacedonianSubtitle)<br />
 
     <label asp-for="@Model.ReleaseDate"></label>
     <input asp-for="@Model.ReleaseDate" /><br />

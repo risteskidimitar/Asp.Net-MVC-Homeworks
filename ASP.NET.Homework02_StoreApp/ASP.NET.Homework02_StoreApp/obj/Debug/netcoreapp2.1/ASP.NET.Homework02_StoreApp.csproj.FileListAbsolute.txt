@@ -22,6 +22,9 @@ D:\SEDC_19\08_Asp.Net-MVC\Homeworks\Asp.Net-MVC-Homeworks\ASP.NET.Homework02_Sto
 D:\SEDC_19\08_Asp.Net-MVC\Homeworks\Asp.Net-MVC-Homeworks\ASP.NET.Homework02_StoreApp\ASP.NET.Homework02_StoreApp\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.cshtml.g.cs
 D:\SEDC_19\08_Asp.Net-MVC\Homeworks\Asp.Net-MVC-Homeworks\ASP.NET.Homework02_StoreApp\ASP.NET.Homework02_StoreApp\obj\Debug\netcoreapp2.1\Razor\Views\Movie\BuyingComplete.cshtml.g.cs
 D:\SEDC_19\08_Asp.Net-MVC\Homeworks\Asp.Net-MVC-Homeworks\ASP.NET.Homework02_StoreApp\ASP.NET.Homework02_StoreApp\obj\Debug\netcoreapp2.1\Razor\Views\Movie\GetMovie.cshtml.g.cs
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\Asp.Net-MVC-Homeworks\ASP.NET.Homework02_StoreApp\ASP.NET.Homework02_StoreApp\obj\Debug\netcoreapp2.1\Razor\Views\Movie\UploadingComplete.cshtml.g.cs
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\Asp.Net-MVC-Homeworks\ASP.NET.Homework02_StoreApp\ASP.NET.Homework02_StoreApp\obj\Debug\netcoreapp2.1\Razor\Views\Movie\UploadMovie.cshtml.g.cs
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\Asp.Net-MVC-Homeworks\ASP.NET.Homework02_StoreApp\ASP.NET.Homework02_StoreApp\obj\Debug\netcoreapp2.1\Razor\Views\Order\Orders.cshtml.g.cs
 D:\SEDC_19\08_Asp.Net-MVC\Homeworks\Asp.Net-MVC-Homeworks\ASP.NET.Homework02_StoreApp\ASP.NET.Homework02_StoreApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
 D:\SEDC_19\08_Asp.Net-MVC\Homeworks\Asp.Net-MVC-Homeworks\ASP.NET.Homework02_StoreApp\ASP.NET.Homework02_StoreApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
 D:\SEDC_19\08_Asp.Net-MVC\Homeworks\Asp.Net-MVC-Homeworks\ASP.NET.Homework02_StoreApp\ASP.NET.Homework02_StoreApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
@@ -37,7 +40,3 @@ D:\SEDC_19\08_Asp.Net-MVC\Homeworks\Asp.Net-MVC-Homeworks\ASP.NET.Homework02_Sto
 D:\SEDC_19\08_Asp.Net-MVC\Homeworks\Asp.Net-MVC-Homeworks\ASP.NET.Homework02_StoreApp\ASP.NET.Homework02_StoreApp\obj\Debug\netcoreapp2.1\ASP.NET.Homework02_StoreApp.pdb
 D:\SEDC_19\08_Asp.Net-MVC\Homeworks\Asp.Net-MVC-Homeworks\ASP.NET.Homework02_StoreApp\ASP.NET.Homework02_StoreApp\obj\Debug\netcoreapp2.1\ASP.NET.Homework02_StoreApp.genruntimeconfig.cache
 D:\SEDC_19\08_Asp.Net-MVC\Homeworks\Asp.Net-MVC-Homeworks\ASP.NET.Homework02_StoreApp\ASP.NET.Homework02_StoreApp\obj\Debug\netcoreapp2.1\ASP.NET.Homework02_StoreApp.csproj.CopyComplete
-D:\SEDC_19\08_Asp.Net-MVC\Homeworks\Asp.Net-MVC-Homeworks\ASP.NET.Homework02_StoreApp\ASP.NET.Homework02_StoreApp\obj\Debug\netcoreapp2.1\ASP.NET.Homework02_StoreApp.csprojAssemblyReference.cache
-D:\SEDC_19\08_Asp.Net-MVC\Homeworks\Asp.Net-MVC-Homeworks\ASP.NET.Homework02_StoreApp\ASP.NET.Homework02_StoreApp\obj\Debug\netcoreapp2.1\Razor\Views\Movie\UploadMovie.cshtml.g.cs
-D:\SEDC_19\08_Asp.Net-MVC\Homeworks\Asp.Net-MVC-Homeworks\ASP.NET.Homework02_StoreApp\ASP.NET.Homework02_StoreApp\obj\Debug\netcoreapp2.1\Razor\Views\Movie\UploadingComplete.cshtml.g.cs
-D:\SEDC_19\08_Asp.Net-MVC\Homeworks\Asp.Net-MVC-Homeworks\ASP.NET.Homework02_StoreApp\ASP.NET.Homework02_StoreApp\obj\Debug\netcoreapp2.1\Razor\Views\Order\Orders.cshtml.g.cs
