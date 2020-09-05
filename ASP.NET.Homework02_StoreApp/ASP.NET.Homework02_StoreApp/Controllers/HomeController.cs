@@ -28,7 +28,8 @@ namespace ASP.NET.Homework02_StoreApp.Controllers
                     Genre = movie.Genre,
                     Price = movie.Price,
                     Rating = movie.Rating,
-                    ReleaseDate = movie.ReleaseDate
+                    ReleaseDate = movie.ReleaseDate,
+                    Link = movie.Link                   
                 };
                 listOfMOviesVM.Add(movieDetailsVM);
             }

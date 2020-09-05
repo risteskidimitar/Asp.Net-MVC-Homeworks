@@ -9,7 +9,10 @@
 <h3>The best app for buying special editions of the movies</h3>
 
 <div>
-    <a asp-controller="BuyMovie" asp-action="GetMovie" class="btn btn-success">Click here to Buy a Movie</a>
+    <a asp-controller="Movie" asp-action="GetMovie" class="btn btn-success">Click here to Buy a Movie</a>
+    <a asp-controller="Movie" asp-action="UploadMovie" class="btn btn-success">Click here to Upload a Movie(Only for Admin)</a>
+</div>
+<div>
     <ol>
         @foreach (var movie in Model)
         {
@@ -19,6 +22,7 @@
 
     </ol>
 </div>
+
 
 
 

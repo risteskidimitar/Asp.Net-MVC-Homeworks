@@ -16,5 +16,6 @@ namespace ASP.NET.Homework02_StoreApp.Models.Domain
         public int ReleaseDate { get; set; }
         public float Rating { get; set; }
         public int Duration { get; set; }
+        public string Link { get; set; }
     }
 }

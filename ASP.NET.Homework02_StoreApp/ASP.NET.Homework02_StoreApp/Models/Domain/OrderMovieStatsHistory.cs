@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace ASP.NET.Homework02_StoreApp.Models.Domain
 {
-    public class MovieStatsHistory
+    public class OrderMovieStatsHistory
     {
         public int Id { get; set; }
         public int UserId { get; set; }

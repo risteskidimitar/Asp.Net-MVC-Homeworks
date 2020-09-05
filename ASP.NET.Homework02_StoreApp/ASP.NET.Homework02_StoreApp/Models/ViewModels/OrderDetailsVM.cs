@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ASP.NET.Homework02_StoreApp.Models.ViewModels
 {
-    public class GetMovie
+    public class OrderDetailsVM
     {
         [Display(Name = "Enter ID of the movie you want to buy")]
         public int IdOfMovie { get; set; }
