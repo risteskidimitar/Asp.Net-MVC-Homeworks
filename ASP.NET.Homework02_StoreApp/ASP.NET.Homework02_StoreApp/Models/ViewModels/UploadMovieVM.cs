@@ -1,4 +1,6 @@
 ﻿using ASP.NET.Homework02_StoreApp.Models.Domain.Enum;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Converters;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -19,6 +21,8 @@ namespace ASP.NET.Homework02_StoreApp.Models.ViewModels
 
         [Display(Name = "Enter price in MKD")]
         public double Price { get; set; }
+
+        
         public Genre Genre { get; set; }
 
         [Display(Name = "Macedonian subtitele is included?")]
