@@ -48,7 +48,7 @@ namespace ASP.NET.Homework03.BusinessLayer.Services
 
 
             if (_userRepositry.GetAll()
-                .SingleOrDefault(u => u.Email.ToLower().Trim() == user.Email.ToLower().Trim()) == null)
+                .FirstOrDefault(u => u.Email.ToLower().Trim() == user.Email.ToLower().Trim()) == null)
             {
                 _userRepositry.AddEnity(user);
             }

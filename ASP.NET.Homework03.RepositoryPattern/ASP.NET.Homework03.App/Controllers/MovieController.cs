@@ -30,6 +30,7 @@ namespace ASP.NET.Homework03.App.Controllers
         {
             var check = _movieService.MovieById(getMovie);
             if (!check) return RedirectToAction("GetMovie", new { error = "There is no movie like that try again" });
+            if (!ModelState.IsValid) return RedirectToAction("GetMovie", new { error = "Fill the required information" });
             return View("BuyingComplete");
         }
 
@@ -54,6 +55,11 @@ namespace ASP.NET.Homework03.App.Controllers
             if (check == "movie")
             {
                 TempData["Error"] = "The movie is already uploaded";
+                return RedirectToAction("UploadMovie");
+            }
+            if (!ModelState.IsValid)
+            {
+                TempData["Error"] = "The movie was not uploaded, try again";
                 return RedirectToAction("UploadMovie");
             }
             return View("UploadingComplete");
