@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ASP.NET.Homework03.BusinessLayer/1.0.0": {
+        "dependencies": {
+          "ASP.NET.Homework03.DataLayer": "1.0.0"
+        },
+        "runtime": {
+          "ASP.NET.Homework03.BusinessLayer.dll": {}
+        }
+      },
+      "ASP.NET.Homework03.DataLayer/1.0.0": {
+        "runtime": {
+          "ASP.NET.Homework03.DataLayer.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ASP.NET.Homework03.BusinessLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ASP.NET.Homework03.DataLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

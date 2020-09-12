@@ -1,0 +1,35 @@
+﻿@model OrderDetailsVM
+@{
+    ViewData["Title"] = "OrderDetailsVM";
+}
+
+<h2>GetMovie</h2>
+
+@if (ViewBag.Error != null)
+{
+<div class="alert alert-danger">
+    @ViewBag.Error
+</div>}
+
+<form asp-route="get-movie" method="post">
+
+    <h3>Movie info:</h3>
+    <label asp-for="IdOfMovie"></label>
+    <input asp-for="IdOfMovie" /><br />
+
+    <h3>User info:</h3>
+    <label asp-for="FirstName"></label>
+    <input asp-for="FirstName" /><br />
+
+    <label asp-for="LastName"></label>
+    <input asp-for="LastName" /><br />
+
+    <label asp-for="Phone"></label>
+    <input asp-for="Phone" /><br />
+
+    <label asp-for="Email"></label>
+    <input asp-for="Email" /><br />
+
+    <button type="submit" class="btn btn-primary">Get movie</button>
+
+</form>
