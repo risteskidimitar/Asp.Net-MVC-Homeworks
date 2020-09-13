@@ -30,8 +30,8 @@ namespace ASP.NET.Homework03.BusinessLayer.Services
             var listOfOrdersDto = new List<OrderMovieStatsDto>();
             foreach (var order in orders)
             {
-                var movie = _movieRepository.GetAll().FirstOrDefault(m => m.Id == order.MovieId);
-                var user = _userRepositry.GetAll().FirstOrDefault(u => u.Id == order.UserId);
+                var movie = _movieRepository.GetById(order.MovieId);
+                var user = _userRepositry.GetById(order.UserId);
 
                 var satsDto = new OrderMovieStatsDto()
                 {
