@@ -101,7 +101,6 @@ namespace ASP.NET.Homework03.BusinessLayer.Services
             {
                 helper.Message = "Enter Title";
                 return helper;
-
             }
 
             var oldmovie = allMovies.FirstOrDefault(m => m.Title.ToLower().Trim() == uploadMovieVM.Title.ToLower().Trim());
@@ -125,6 +124,7 @@ namespace ASP.NET.Homework03.BusinessLayer.Services
             };
 
             _movieRepository.AddEntity(newMovie);
+
             return helper;
 
         }

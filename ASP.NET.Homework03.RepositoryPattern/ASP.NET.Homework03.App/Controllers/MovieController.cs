@@ -47,15 +47,16 @@ namespace ASP.NET.Homework03.App.Controllers
         [HttpPost("upload-movie")]
         public IActionResult UploadMovie(UploadMovieVM uploadMovie)
         {
+            if (!ModelState.IsValid) return View("UploadMovie", uploadMovie);
 
             HelperClass helper = _movieService.UploadMovie(uploadMovie);
+        
             if (!string.IsNullOrEmpty(helper.Message)) 
             {
                 TempData["Error"] = helper.Message;
                 return RedirectToAction("UploadMovie");
             }
-
-            if (!ModelState.IsValid) return View("UploadMovie", uploadMovie);
+          
 
             return View("UploadingComplete");
         }
