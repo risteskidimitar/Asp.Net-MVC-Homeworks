@@ -77,7 +77,7 @@ using ASP.NET.Homework03.DataLayer.Domain.Enum;
             WriteLiteral("\n<h2>Buying Complete</h2>\n\n<h1>Thank you for Buying movie with Our app </h1>\n\n");
             EndContext();
             BeginContext(126, 86, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "47e8ee1e0f984f6eba3cde1d9f56b765", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e1ad911afe634c4e9e8f6bf20577253f", async() => {
                 BeginContext(193, 15, true);
                 WriteLiteral("View all Movies");
                 EndContext();
@@ -102,7 +102,7 @@ using ASP.NET.Homework03.DataLayer.Domain.Enum;
             WriteLiteral("\n\n");
             EndContext();
             BeginContext(214, 92, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "048219e2dac043e8b578c916e2f98118", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6c6a614d149a4d61bf20f4c118d2e249", async() => {
                 BeginContext(285, 17, true);
                 WriteLiteral("Get another movie");
                 EndContext();

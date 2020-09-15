@@ -78,7 +78,7 @@ using ASP.NET.Homework03.DataLayer.Domain.Enum;
             WriteLiteral("\r\n<h2>Uploading Complete</h2>\r\n\r\n<h1>Thank you for Uploading movie in Our app </h1>\r\n\r\n");
             EndContext();
             BeginContext(142, 86, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "009966ae3a3a40b6b387ea552cdd92b7", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9bfec41e49d54372aebac076376a6493", async() => {
                 BeginContext(209, 15, true);
                 WriteLiteral("View all Movies");
                 EndContext();
@@ -103,7 +103,7 @@ using ASP.NET.Homework03.DataLayer.Domain.Enum;
             WriteLiteral("\r\n\r\n");
             EndContext();
             BeginContext(232, 84, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1d30025d274c4c218e355aed340ede31", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c6b9f5b4d91841358a41ef84e4b527b1", async() => {
                 BeginContext(303, 9, true);
                 WriteLiteral("Get movie");
                 EndContext();
@@ -128,7 +128,7 @@ using ASP.NET.Homework03.DataLayer.Domain.Enum;
             WriteLiteral("\r\n\r\n");
             EndContext();
             BeginContext(320, 98, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d293b5ddf4dd4a0f81adda2113ed25df", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "987b2a708073496487d76ef5b0037d11", async() => {
                 BeginContext(394, 20, true);
                 WriteLiteral("Upload another movie");
                 EndContext();
