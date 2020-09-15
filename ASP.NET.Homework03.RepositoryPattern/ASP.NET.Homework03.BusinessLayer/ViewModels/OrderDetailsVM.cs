@@ -21,7 +21,6 @@ namespace ASP.NET.Homework03.BusinessLayer.ViewModels
 
         [Required]
         //[Range(1, 100, ErrorMessage = "Range must be betwen 1 and 100 - custom")]
-        //neshto novo
         public long Phone { get; set; }
     }
 }
