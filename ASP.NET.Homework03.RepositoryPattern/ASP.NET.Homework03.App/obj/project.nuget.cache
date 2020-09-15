@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ou75PmigD3hlfx2+dNJh+V7ID+Dcc0tKcTkIk2V1C/OFXb7lkSyZikUr10I/xNH+bWJvbUBJ+UfPUz2p9F0mjQ==",
+  "dgSpecHash": "l0NPiRQTNA3g+en18XS8EN0/GkPtgWlMHjCvlbmDmlDW3dqFQ0tN14pQwe1SLmyI5OnsrP6m6NTThaWFtPWBXw==",
   "success": true,
-  "projectFilePath": "D:\\SEDC_19\\08_Asp.Net-MVC\\Homeworks\\arh\\Draft\\ASP.NET.Homework03.RepositoryPattern\\ASP.NET.Homework03.App\\ASP.NET.Homework03.App.csproj",
+  "projectFilePath": "D:\\SEDC_19\\08_Asp.Net-MVC\\Homeworks\\Asp.Net-MVC-Homeworks\\ASP.NET.Homework03.RepositoryPattern\\ASP.NET.Homework03.App\\ASP.NET.Homework03.App.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore\\2.1.1\\microsoft.aspnetcore.2.1.1.nupkg.sha512",

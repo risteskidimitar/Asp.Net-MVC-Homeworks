@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "I7Tk3+whumPN+HlUPXQrPx4ChlssxMF1NCaiNGq4C8mm/GpP7vJEL4rKZTiQdiO/2O2DZJYEvOdm9M/Wd4UlAg==",
+  "dgSpecHash": "s8u9Wl44RKKp0TNvEtKY716CUE2OxSUPoaGHJVQbUO1iQhKD7JHMMmZaEAZzG6GI1B6dCeh4tTYSgKOp2IkznA==",
   "success": true,
-  "projectFilePath": "D:\\SEDC_19\\08_Asp.Net-MVC\\Homeworks\\arh\\Draft\\ASP.NET.Homework03.RepositoryPattern\\ASP.NET.Homework03.DataLayer\\ASP.NET.Homework03.DataLayer.csproj",
+  "projectFilePath": "D:\\SEDC_19\\08_Asp.Net-MVC\\Homeworks\\Asp.Net-MVC-Homeworks\\ASP.NET.Homework03.RepositoryPattern\\ASP.NET.Homework03.DataLayer\\ASP.NET.Homework03.DataLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dimit\\.nuget\\packages\\microsoft.netcore.app\\2.1.0\\microsoft.netcore.app.2.1.0.nupkg.sha512",
     "C:\\Users\\dimit\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.1.0\\microsoft.netcore.dotnetapphost.2.1.0.nupkg.sha512",

@@ -18,6 +18,9 @@ namespace ASP.NET.Homework03.BusinessLayer.ViewModels
 
         [Display(Name = "Your email address")]
         public string Email { get; set; }
-        public long Phone { get; set; }
+
+        [Required]
+        //[Range(1, 100, ErrorMessage = "Range must be betwen 1 and 100 - custom")]
+        public long? Phone { get; set; }
     }
 }
