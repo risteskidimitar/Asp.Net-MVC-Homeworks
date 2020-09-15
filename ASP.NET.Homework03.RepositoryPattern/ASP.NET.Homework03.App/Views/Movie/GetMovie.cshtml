@@ -20,9 +20,11 @@
     <h3>User info:</h3>
     <label asp-for="FirstName"></label>
     <input asp-for="FirstName" /><br />
+    <span asp-validation-for="FirstName" class="text-danger"></span><br />
 
     <label asp-for="LastName"></label>
     <input asp-for="LastName" /><br />
+    <span asp-validation-for="LastName" class="text-danger"></span><br />
 
     <label asp-for="Phone"></label>
     <input asp-for="Phone" /><br />

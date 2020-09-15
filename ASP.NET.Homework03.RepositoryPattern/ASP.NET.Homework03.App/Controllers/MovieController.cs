@@ -1,4 +1,5 @@
-﻿using ASP.NET.Homework03.BusinessLayer.Interfaces;
+﻿using ASP.NET.Homework03.BusinessLayer.Helper;
+using ASP.NET.Homework03.BusinessLayer.Interfaces;
 using ASP.NET.Homework03.BusinessLayer.Services;
 using ASP.NET.Homework03.BusinessLayer.ViewModels;
 using Microsoft.AspNetCore.Mvc;
@@ -28,9 +29,10 @@ namespace ASP.NET.Homework03.App.Controllers
         [HttpPost("get-movie")]
         public IActionResult GetMovie(OrderDetailsVM getMovie)
         {
-            var check = _movieService.MovieById(getMovie);
-            if (!check) return RedirectToAction("GetMovie", new { error = "There is no movie like that try again" });
-            if (!ModelState.IsValid) return RedirectToAction("GetMovie", new { error = "Fill the required information" });
+            HelperClass helper = _movieService.MovieById(getMovie);
+            if (!string.IsNullOrEmpty(helper.Message)) return RedirectToAction("GetMovie", new { error = helper.Message });
+            if (!ModelState.IsValid) return View("GetMovie", getMovie);
+         
             return View("BuyingComplete");
         }
 
@@ -46,22 +48,15 @@ namespace ASP.NET.Homework03.App.Controllers
         public IActionResult UploadMovie(UploadMovieVM uploadMovie)
         {
 
-            var check = _movieService.UploadMovie(uploadMovie);
-            if (check == "admin")
+            HelperClass helper = _movieService.UploadMovie(uploadMovie);
+            if (!string.IsNullOrEmpty(helper.Message)) 
             {
-                TempData["Error"] = "You are admins email is not correct";
+                TempData["Error"] = helper.Message;
                 return RedirectToAction("UploadMovie");
             }
-            if (check == "movie")
-            {
-                TempData["Error"] = "The movie is already uploaded";
-                return RedirectToAction("UploadMovie");
-            }
-            if (!ModelState.IsValid)
-            {
-                TempData["Error"] = "The movie was not uploaded, try again";
-                return RedirectToAction("UploadMovie");
-            }
+
+            if (!ModelState.IsValid) return View("UploadMovie", uploadMovie);
+
             return View("UploadingComplete");
         }
     }

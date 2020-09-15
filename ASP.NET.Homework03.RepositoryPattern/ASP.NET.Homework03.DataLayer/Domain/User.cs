@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ASP.NET.Homework03.DataLayer.Domain.Enum;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -10,7 +11,6 @@ namespace ASP.NET.Homework03.DataLayer.Domain
         public string LastName { get; set; }
         public string Email { get; set; }
         public long Phone { get; set; }
-
-        public bool IsAdmin = false;
+        public TypeOfUser TypeOfUser { get; set; } = TypeOfUser.StandardUser;
     }
 }

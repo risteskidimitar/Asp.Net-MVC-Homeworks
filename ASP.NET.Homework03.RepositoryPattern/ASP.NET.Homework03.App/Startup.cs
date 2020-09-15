@@ -37,6 +37,7 @@ namespace ASP.NET.Homework03.App
 
             //Dependency Injection
             services.AddTransient<IJsonOrders, JsonOrdersService>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

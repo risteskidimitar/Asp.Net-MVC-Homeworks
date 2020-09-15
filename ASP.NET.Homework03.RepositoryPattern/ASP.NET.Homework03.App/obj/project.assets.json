@@ -11849,11 +11849,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\SEDC_19\\08_Asp.Net-MVC\\Homeworks\\Asp.Net-MVC-Homeworks\\ASP.NET.Homework03.RepositoryPattern\\ASP.NET.Homework03.App\\ASP.NET.Homework03.App.csproj",
+      "projectUniqueName": "D:\\SEDC_19\\08_Asp.Net-MVC\\Homeworks\\arh\\Draft\\ASP.NET.Homework03.RepositoryPattern\\ASP.NET.Homework03.App\\ASP.NET.Homework03.App.csproj",
       "projectName": "ASP.NET.Homework03.App",
-      "projectPath": "D:\\SEDC_19\\08_Asp.Net-MVC\\Homeworks\\Asp.Net-MVC-Homeworks\\ASP.NET.Homework03.RepositoryPattern\\ASP.NET.Homework03.App\\ASP.NET.Homework03.App.csproj",
+      "projectPath": "D:\\SEDC_19\\08_Asp.Net-MVC\\Homeworks\\arh\\Draft\\ASP.NET.Homework03.RepositoryPattern\\ASP.NET.Homework03.App\\ASP.NET.Homework03.App.csproj",
       "packagesPath": "C:\\Users\\dimit\\.nuget\\packages\\",
-      "outputPath": "D:\\SEDC_19\\08_Asp.Net-MVC\\Homeworks\\Asp.Net-MVC-Homeworks\\ASP.NET.Homework03.RepositoryPattern\\ASP.NET.Homework03.App\\obj\\",
+      "outputPath": "D:\\SEDC_19\\08_Asp.Net-MVC\\Homeworks\\arh\\Draft\\ASP.NET.Homework03.RepositoryPattern\\ASP.NET.Homework03.App\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -11872,8 +11872,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "D:\\SEDC_19\\08_Asp.Net-MVC\\Homeworks\\Asp.Net-MVC-Homeworks\\ASP.NET.Homework03.RepositoryPattern\\ASP.NET.Homework03.BusinessLayer\\ASP.NET.Homework03.BusinessLayer.csproj": {
-              "projectPath": "D:\\SEDC_19\\08_Asp.Net-MVC\\Homeworks\\Asp.Net-MVC-Homeworks\\ASP.NET.Homework03.RepositoryPattern\\ASP.NET.Homework03.BusinessLayer\\ASP.NET.Homework03.BusinessLayer.csproj"
+            "D:\\SEDC_19\\08_Asp.Net-MVC\\Homeworks\\arh\\Draft\\ASP.NET.Homework03.RepositoryPattern\\ASP.NET.Homework03.BusinessLayer\\ASP.NET.Homework03.BusinessLayer.csproj": {
+              "projectPath": "D:\\SEDC_19\\08_Asp.Net-MVC\\Homeworks\\arh\\Draft\\ASP.NET.Homework03.RepositoryPattern\\ASP.NET.Homework03.BusinessLayer\\ASP.NET.Homework03.BusinessLayer.csproj"
             }
           }
         }

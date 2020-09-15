@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SEDC_19\\08_Asp.Net-MVC\\Homeworks\\Asp.Net-MVC-Homeworks\\ASP.NET.Homework03.RepositoryPattern\\ASP.NET.Homework03.DataLayer\\ASP.NET.Homework03.DataLayer.csproj": {}
+    "D:\\SEDC_19\\08_Asp.Net-MVC\\Homeworks\\arh\\Draft\\ASP.NET.Homework03.RepositoryPattern\\ASP.NET.Homework03.DataLayer\\ASP.NET.Homework03.DataLayer.csproj": {}
   },
   "projects": {
-    "D:\\SEDC_19\\08_Asp.Net-MVC\\Homeworks\\Asp.Net-MVC-Homeworks\\ASP.NET.Homework03.RepositoryPattern\\ASP.NET.Homework03.DataLayer\\ASP.NET.Homework03.DataLayer.csproj": {
+    "D:\\SEDC_19\\08_Asp.Net-MVC\\Homeworks\\arh\\Draft\\ASP.NET.Homework03.RepositoryPattern\\ASP.NET.Homework03.DataLayer\\ASP.NET.Homework03.DataLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SEDC_19\\08_Asp.Net-MVC\\Homeworks\\Asp.Net-MVC-Homeworks\\ASP.NET.Homework03.RepositoryPattern\\ASP.NET.Homework03.DataLayer\\ASP.NET.Homework03.DataLayer.csproj",
+        "projectUniqueName": "D:\\SEDC_19\\08_Asp.Net-MVC\\Homeworks\\arh\\Draft\\ASP.NET.Homework03.RepositoryPattern\\ASP.NET.Homework03.DataLayer\\ASP.NET.Homework03.DataLayer.csproj",
         "projectName": "ASP.NET.Homework03.DataLayer",
-        "projectPath": "D:\\SEDC_19\\08_Asp.Net-MVC\\Homeworks\\Asp.Net-MVC-Homeworks\\ASP.NET.Homework03.RepositoryPattern\\ASP.NET.Homework03.DataLayer\\ASP.NET.Homework03.DataLayer.csproj",
+        "projectPath": "D:\\SEDC_19\\08_Asp.Net-MVC\\Homeworks\\arh\\Draft\\ASP.NET.Homework03.RepositoryPattern\\ASP.NET.Homework03.DataLayer\\ASP.NET.Homework03.DataLayer.csproj",
         "packagesPath": "C:\\Users\\dimit\\.nuget\\packages\\",
-        "outputPath": "D:\\SEDC_19\\08_Asp.Net-MVC\\Homeworks\\Asp.Net-MVC-Homeworks\\ASP.NET.Homework03.RepositoryPattern\\ASP.NET.Homework03.DataLayer\\obj\\",
+        "outputPath": "D:\\SEDC_19\\08_Asp.Net-MVC\\Homeworks\\arh\\Draft\\ASP.NET.Homework03.RepositoryPattern\\ASP.NET.Homework03.DataLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

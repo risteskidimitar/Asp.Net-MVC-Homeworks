@@ -13,25 +13,25 @@ namespace ASP.NET.Homework03.BusinessLayer.Services
 {
     public class JsonOrdersService : IJsonOrders
     {
-       
-       public readonly IMovieRepository<Movie> _movieRepository;
-        public readonly IMovieRepository<User> _userRepositry;
-        public readonly IMovieRepository<OrderMovieStatsHistory> _orderRepositry;
+
+        public readonly IGenericRepository<Movie> _movieRepository;
+        public readonly IGenericRepository<OrderMovieStatsHistory> _orderRepository;
+        public readonly IGenericRepository<User> _userRepository;
 
         public JsonOrdersService()
         {
-            _movieRepository = new MovieRepository<Movie>();
-            _userRepositry = new MovieRepository<User>();
-            _orderRepositry = new MovieRepository<OrderMovieStatsHistory>();
+            _movieRepository = new MovieRepository();
+            _orderRepository = new OrderRepository();
+            _userRepository = new UserRepository();
         }
         public List<OrderMovieStatsDto> JsonOrders()
         {
-            var orders = _orderRepositry.GetAll();
+            var orders = _orderRepository.GetAll();
             var listOfOrdersDto = new List<OrderMovieStatsDto>();
             foreach (var order in orders)
             {
-                var movie = _movieRepository.GetById(order.MovieId);
-                var user = _userRepositry.GetById(order.UserId);
+                var movie = _movieRepository.GetAll().FirstOrDefault(m => m.Id == order.MovieId);
+                var user = _userRepository.GetAll().FirstOrDefault(u => u.Id == order.UserId);
 
                 var satsDto = new OrderMovieStatsDto()
                 {

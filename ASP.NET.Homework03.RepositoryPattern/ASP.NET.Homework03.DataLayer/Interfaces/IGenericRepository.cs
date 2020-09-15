@@ -5,11 +5,11 @@ using System.Text;
 
 namespace ASP.NET.Homework03.DataLayer.Interfaces
 {
-    public interface IMovieRepository<T> where T : IBaseEntity
+    public interface IGenericRepository <T> 
     {
         List<T> GetAll();
 
-        void AddEnity(T entity);
+        void AddEntity(T entity);
 
         T GetById(int id);
 

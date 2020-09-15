@@ -1,18 +1,26 @@
-C:\Users\dimit\Desktop\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.DataLayer\bin\Debug\netcoreapp2.1\ASP.NET.Homework03.DataLayer.deps.json
-C:\Users\dimit\Desktop\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.DataLayer\bin\Debug\netcoreapp2.1\ASP.NET.Homework03.DataLayer.dll
-C:\Users\dimit\Desktop\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.DataLayer\bin\Debug\netcoreapp2.1\ASP.NET.Homework03.DataLayer.pdb
-C:\Users\dimit\Desktop\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.DataLayer\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.DataLayer.AssemblyInfoInputs.cache
-C:\Users\dimit\Desktop\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.DataLayer\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.DataLayer.AssemblyInfo.cs
-C:\Users\dimit\Desktop\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.DataLayer\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.DataLayer.csproj.CoreCompileInputs.cache
-C:\Users\dimit\Desktop\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.DataLayer\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.DataLayer.dll
-C:\Users\dimit\Desktop\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.DataLayer\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.DataLayer.pdb
-C:\Users\dimit\Desktop\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.DataLayer\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.DataLayer.csprojAssemblyReference.cache
 D:\SEDC_19\08_Asp.Net-MVC\Homeworks\Asp.Net-MVC-Homeworks\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.DataLayer\bin\Debug\netcoreapp2.1\ASP.NET.Homework03.DataLayer.deps.json
 D:\SEDC_19\08_Asp.Net-MVC\Homeworks\Asp.Net-MVC-Homeworks\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.DataLayer\bin\Debug\netcoreapp2.1\ASP.NET.Homework03.DataLayer.dll
 D:\SEDC_19\08_Asp.Net-MVC\Homeworks\Asp.Net-MVC-Homeworks\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.DataLayer\bin\Debug\netcoreapp2.1\ASP.NET.Homework03.DataLayer.pdb
-D:\SEDC_19\08_Asp.Net-MVC\Homeworks\Asp.Net-MVC-Homeworks\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.DataLayer\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.DataLayer.csprojAssemblyReference.cache
 D:\SEDC_19\08_Asp.Net-MVC\Homeworks\Asp.Net-MVC-Homeworks\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.DataLayer\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.DataLayer.AssemblyInfoInputs.cache
 D:\SEDC_19\08_Asp.Net-MVC\Homeworks\Asp.Net-MVC-Homeworks\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.DataLayer\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.DataLayer.AssemblyInfo.cs
 D:\SEDC_19\08_Asp.Net-MVC\Homeworks\Asp.Net-MVC-Homeworks\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.DataLayer\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.DataLayer.csproj.CoreCompileInputs.cache
 D:\SEDC_19\08_Asp.Net-MVC\Homeworks\Asp.Net-MVC-Homeworks\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.DataLayer\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.DataLayer.dll
 D:\SEDC_19\08_Asp.Net-MVC\Homeworks\Asp.Net-MVC-Homeworks\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.DataLayer\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.DataLayer.pdb
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\Asp.Net-MVC-Homeworks\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.DataLayer\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.DataLayer.csprojAssemblyReference.cache
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Nongeneric-RepoPattern HW3\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.DataLayer\bin\Debug\netcoreapp2.1\ASP.NET.Homework03.DataLayer.deps.json
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Nongeneric-RepoPattern HW3\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.DataLayer\bin\Debug\netcoreapp2.1\ASP.NET.Homework03.DataLayer.dll
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Nongeneric-RepoPattern HW3\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.DataLayer\bin\Debug\netcoreapp2.1\ASP.NET.Homework03.DataLayer.pdb
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Nongeneric-RepoPattern HW3\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.DataLayer\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.DataLayer.csprojAssemblyReference.cache
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Nongeneric-RepoPattern HW3\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.DataLayer\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.DataLayer.AssemblyInfoInputs.cache
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Nongeneric-RepoPattern HW3\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.DataLayer\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.DataLayer.AssemblyInfo.cs
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Nongeneric-RepoPattern HW3\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.DataLayer\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.DataLayer.csproj.CoreCompileInputs.cache
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Nongeneric-RepoPattern HW3\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.DataLayer\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.DataLayer.dll
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Nongeneric-RepoPattern HW3\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.DataLayer\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.DataLayer.pdb
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Draft\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.DataLayer\bin\Debug\netcoreapp2.1\ASP.NET.Homework03.DataLayer.deps.json
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Draft\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.DataLayer\bin\Debug\netcoreapp2.1\ASP.NET.Homework03.DataLayer.dll
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Draft\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.DataLayer\bin\Debug\netcoreapp2.1\ASP.NET.Homework03.DataLayer.pdb
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Draft\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.DataLayer\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.DataLayer.AssemblyInfoInputs.cache
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Draft\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.DataLayer\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.DataLayer.AssemblyInfo.cs
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Draft\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.DataLayer\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.DataLayer.csproj.CoreCompileInputs.cache
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Draft\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.DataLayer\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.DataLayer.dll
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Draft\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.DataLayer\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.DataLayer.pdb

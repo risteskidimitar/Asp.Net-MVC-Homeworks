@@ -1,50 +1,3 @@
-C:\Users\dimit\Desktop\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\bin\Debug\netcoreapp2.1\appsettings.Development.json
-C:\Users\dimit\Desktop\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\bin\Debug\netcoreapp2.1\appsettings.json
-C:\Users\dimit\Desktop\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
-C:\Users\dimit\Desktop\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\bin\Debug\netcoreapp2.1\ASP.NET.Homework03.App.deps.json
-C:\Users\dimit\Desktop\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\bin\Debug\netcoreapp2.1\ASP.NET.Homework03.App.runtimeconfig.json
-C:\Users\dimit\Desktop\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\bin\Debug\netcoreapp2.1\ASP.NET.Homework03.App.runtimeconfig.dev.json
-C:\Users\dimit\Desktop\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\bin\Debug\netcoreapp2.1\ASP.NET.Homework03.App.dll
-C:\Users\dimit\Desktop\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\bin\Debug\netcoreapp2.1\ASP.NET.Homework03.App.pdb
-C:\Users\dimit\Desktop\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\bin\Debug\netcoreapp2.1\ASP.NET.Homework03.App.Views.dll
-C:\Users\dimit\Desktop\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\bin\Debug\netcoreapp2.1\ASP.NET.Homework03.App.Views.pdb
-C:\Users\dimit\Desktop\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\bin\Debug\netcoreapp2.1\ASP.NET.Homework03.BusinessLayer.dll
-C:\Users\dimit\Desktop\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\bin\Debug\netcoreapp2.1\ASP.NET.Homework03.DataLayer.dll
-C:\Users\dimit\Desktop\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\bin\Debug\netcoreapp2.1\ASP.NET.Homework03.BusinessLayer.pdb
-C:\Users\dimit\Desktop\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\bin\Debug\netcoreapp2.1\ASP.NET.Homework03.DataLayer.pdb
-C:\Users\dimit\Desktop\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.App.csprojAssemblyReference.cache
-C:\Users\dimit\Desktop\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.App.AssemblyInfoInputs.cache
-C:\Users\dimit\Desktop\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.App.AssemblyInfo.cs
-C:\Users\dimit\Desktop\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.App.csproj.CoreCompileInputs.cache
-C:\Users\dimit\Desktop\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.App.RazorAssemblyInfo.cache
-C:\Users\dimit\Desktop\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.App.RazorAssemblyInfo.cs
-C:\Users\dimit\Desktop\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.App.TagHelpers.input.cache
-C:\Users\dimit\Desktop\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.App.TagHelpers.output.cache
-C:\Users\dimit\Desktop\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.App.RazorCoreGenerate.cache
-C:\Users\dimit\Desktop\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.cshtml.g.cs
-C:\Users\dimit\Desktop\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.cshtml.g.cs
-C:\Users\dimit\Desktop\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\dimit\Desktop\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.cshtml.g.cs
-C:\Users\dimit\Desktop\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\Razor\Views\Movie\BuyingComplete.cshtml.g.cs
-C:\Users\dimit\Desktop\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\Razor\Views\Movie\GetMovie.cshtml.g.cs
-C:\Users\dimit\Desktop\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\Razor\Views\Movie\UploadingComplete.cshtml.g.cs
-C:\Users\dimit\Desktop\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\Razor\Views\Movie\UploadMovie.cshtml.g.cs
-C:\Users\dimit\Desktop\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\Razor\Views\Order\Orders.cshtml.g.cs
-C:\Users\dimit\Desktop\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
-C:\Users\dimit\Desktop\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
-C:\Users\dimit\Desktop\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
-C:\Users\dimit\Desktop\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_movieListPartial.cshtml.g.cs
-C:\Users\dimit\Desktop\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ourLayout.cshtml.g.cs
-C:\Users\dimit\Desktop\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
-C:\Users\dimit\Desktop\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
-C:\Users\dimit\Desktop\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
-C:\Users\dimit\Desktop\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.App.RazorTargetAssemblyInfo.cache
-C:\Users\dimit\Desktop\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.App.RazorTargetAssemblyInfo.cs
-C:\Users\dimit\Desktop\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.App.Views.pdb
-C:\Users\dimit\Desktop\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.App.csproj.CopyComplete
-C:\Users\dimit\Desktop\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.App.dll
-C:\Users\dimit\Desktop\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.App.pdb
-C:\Users\dimit\Desktop\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.App.genruntimeconfig.cache
 D:\SEDC_19\08_Asp.Net-MVC\Homeworks\Asp.Net-MVC-Homeworks\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\bin\Debug\netcoreapp2.1\appsettings.Development.json
 D:\SEDC_19\08_Asp.Net-MVC\Homeworks\Asp.Net-MVC-Homeworks\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\bin\Debug\netcoreapp2.1\appsettings.json
 D:\SEDC_19\08_Asp.Net-MVC\Homeworks\Asp.Net-MVC-Homeworks\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
@@ -92,3 +45,97 @@ D:\SEDC_19\08_Asp.Net-MVC\Homeworks\Asp.Net-MVC-Homeworks\ASP.NET.Homework03.Rep
 D:\SEDC_19\08_Asp.Net-MVC\Homeworks\Asp.Net-MVC-Homeworks\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.App.dll
 D:\SEDC_19\08_Asp.Net-MVC\Homeworks\Asp.Net-MVC-Homeworks\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.App.pdb
 D:\SEDC_19\08_Asp.Net-MVC\Homeworks\Asp.Net-MVC-Homeworks\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.App.genruntimeconfig.cache
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Nongeneric-RepoPattern HW3\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\bin\Debug\netcoreapp2.1\appsettings.Development.json
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Nongeneric-RepoPattern HW3\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\bin\Debug\netcoreapp2.1\appsettings.json
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Nongeneric-RepoPattern HW3\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Nongeneric-RepoPattern HW3\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\bin\Debug\netcoreapp2.1\ASP.NET.Homework03.App.deps.json
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Nongeneric-RepoPattern HW3\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\bin\Debug\netcoreapp2.1\ASP.NET.Homework03.App.runtimeconfig.json
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Nongeneric-RepoPattern HW3\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\bin\Debug\netcoreapp2.1\ASP.NET.Homework03.App.runtimeconfig.dev.json
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Nongeneric-RepoPattern HW3\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\bin\Debug\netcoreapp2.1\ASP.NET.Homework03.App.dll
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Nongeneric-RepoPattern HW3\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\bin\Debug\netcoreapp2.1\ASP.NET.Homework03.App.pdb
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Nongeneric-RepoPattern HW3\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\bin\Debug\netcoreapp2.1\ASP.NET.Homework03.App.Views.dll
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Nongeneric-RepoPattern HW3\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\bin\Debug\netcoreapp2.1\ASP.NET.Homework03.App.Views.pdb
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Nongeneric-RepoPattern HW3\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\bin\Debug\netcoreapp2.1\ASP.NET.Homework03.BusinessLayer.dll
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Nongeneric-RepoPattern HW3\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\bin\Debug\netcoreapp2.1\ASP.NET.Homework03.DataLayer.dll
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Nongeneric-RepoPattern HW3\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\bin\Debug\netcoreapp2.1\ASP.NET.Homework03.BusinessLayer.pdb
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Nongeneric-RepoPattern HW3\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\bin\Debug\netcoreapp2.1\ASP.NET.Homework03.DataLayer.pdb
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Nongeneric-RepoPattern HW3\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.App.csprojAssemblyReference.cache
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Nongeneric-RepoPattern HW3\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.App.AssemblyInfoInputs.cache
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Nongeneric-RepoPattern HW3\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.App.AssemblyInfo.cs
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Nongeneric-RepoPattern HW3\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.App.csproj.CoreCompileInputs.cache
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Nongeneric-RepoPattern HW3\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.App.RazorAssemblyInfo.cache
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Nongeneric-RepoPattern HW3\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.App.RazorAssemblyInfo.cs
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Nongeneric-RepoPattern HW3\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.App.TagHelpers.input.cache
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Nongeneric-RepoPattern HW3\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.App.TagHelpers.output.cache
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Nongeneric-RepoPattern HW3\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.App.RazorCoreGenerate.cache
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Nongeneric-RepoPattern HW3\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.cshtml.g.cs
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Nongeneric-RepoPattern HW3\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.cshtml.g.cs
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Nongeneric-RepoPattern HW3\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Nongeneric-RepoPattern HW3\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Nongeneric-RepoPattern HW3\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\Razor\Views\Movie\BuyingComplete.cshtml.g.cs
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Nongeneric-RepoPattern HW3\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\Razor\Views\Movie\GetMovie.cshtml.g.cs
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Nongeneric-RepoPattern HW3\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\Razor\Views\Movie\UploadingComplete.cshtml.g.cs
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Nongeneric-RepoPattern HW3\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\Razor\Views\Movie\UploadMovie.cshtml.g.cs
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Nongeneric-RepoPattern HW3\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\Razor\Views\Order\Orders.cshtml.g.cs
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Nongeneric-RepoPattern HW3\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Nongeneric-RepoPattern HW3\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Nongeneric-RepoPattern HW3\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Nongeneric-RepoPattern HW3\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_movieListPartial.cshtml.g.cs
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Nongeneric-RepoPattern HW3\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ourLayout.cshtml.g.cs
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Nongeneric-RepoPattern HW3\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Nongeneric-RepoPattern HW3\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Nongeneric-RepoPattern HW3\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Nongeneric-RepoPattern HW3\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.App.RazorTargetAssemblyInfo.cache
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Nongeneric-RepoPattern HW3\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.App.RazorTargetAssemblyInfo.cs
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Nongeneric-RepoPattern HW3\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.App.Views.pdb
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Nongeneric-RepoPattern HW3\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.App.csproj.CopyComplete
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Nongeneric-RepoPattern HW3\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.App.dll
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Nongeneric-RepoPattern HW3\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.App.pdb
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Nongeneric-RepoPattern HW3\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.App.genruntimeconfig.cache
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Draft\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\bin\Debug\netcoreapp2.1\appsettings.Development.json
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Draft\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\bin\Debug\netcoreapp2.1\appsettings.json
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Draft\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Draft\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\bin\Debug\netcoreapp2.1\ASP.NET.Homework03.App.deps.json
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Draft\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\bin\Debug\netcoreapp2.1\ASP.NET.Homework03.App.runtimeconfig.json
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Draft\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\bin\Debug\netcoreapp2.1\ASP.NET.Homework03.App.runtimeconfig.dev.json
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Draft\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\bin\Debug\netcoreapp2.1\ASP.NET.Homework03.App.dll
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Draft\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\bin\Debug\netcoreapp2.1\ASP.NET.Homework03.App.pdb
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Draft\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\bin\Debug\netcoreapp2.1\ASP.NET.Homework03.App.Views.dll
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Draft\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\bin\Debug\netcoreapp2.1\ASP.NET.Homework03.App.Views.pdb
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Draft\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\bin\Debug\netcoreapp2.1\ASP.NET.Homework03.BusinessLayer.dll
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Draft\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\bin\Debug\netcoreapp2.1\ASP.NET.Homework03.DataLayer.dll
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Draft\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\bin\Debug\netcoreapp2.1\ASP.NET.Homework03.BusinessLayer.pdb
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Draft\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\bin\Debug\netcoreapp2.1\ASP.NET.Homework03.DataLayer.pdb
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Draft\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.App.csprojAssemblyReference.cache
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Draft\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.App.AssemblyInfoInputs.cache
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Draft\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.App.AssemblyInfo.cs
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Draft\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.App.csproj.CoreCompileInputs.cache
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Draft\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.App.RazorAssemblyInfo.cache
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Draft\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.App.RazorAssemblyInfo.cs
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Draft\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.App.TagHelpers.input.cache
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Draft\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.App.TagHelpers.output.cache
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Draft\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.App.RazorCoreGenerate.cache
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Draft\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.cshtml.g.cs
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Draft\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.cshtml.g.cs
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Draft\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Draft\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Draft\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\Razor\Views\Movie\BuyingComplete.cshtml.g.cs
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Draft\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\Razor\Views\Movie\GetMovie.cshtml.g.cs
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Draft\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\Razor\Views\Movie\UploadingComplete.cshtml.g.cs
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Draft\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\Razor\Views\Movie\UploadMovie.cshtml.g.cs
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Draft\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\Razor\Views\Order\Orders.cshtml.g.cs
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Draft\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Draft\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Draft\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Draft\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_movieListPartial.cshtml.g.cs
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Draft\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ourLayout.cshtml.g.cs
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Draft\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Draft\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Draft\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Draft\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.App.RazorTargetAssemblyInfo.cache
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Draft\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.App.RazorTargetAssemblyInfo.cs
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Draft\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.App.Views.pdb
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Draft\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.App.csproj.CopyComplete
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Draft\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.App.dll
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Draft\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.App.pdb
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\arh\Draft\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.App\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.App.genruntimeconfig.cache

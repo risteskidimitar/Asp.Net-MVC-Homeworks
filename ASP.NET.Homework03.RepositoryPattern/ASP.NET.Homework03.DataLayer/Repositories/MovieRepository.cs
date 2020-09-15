@@ -1,5 +1,4 @@
 ﻿using ASP.NET.Homework03.DataLayer.Domain;
-using ASP.NET.Homework03.DataLayer.Domain.Enum;
 using ASP.NET.Homework03.DataLayer.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -8,27 +7,25 @@ using System.Text;
 
 namespace ASP.NET.Homework03.DataLayer.Repositories
 {
-    public class MovieRepository<T> : IMovieRepository<T> where T : IBaseEntity
+    public class MovieRepository : IGenericRepository<Movie>
     {
-      
-        public List<T> GetAll()
+
+        public List<Movie> GetAll()
         {
-            return MovieDatabase<T>.AllEntities;
+            return MovieDatabase.Movies;
+        }
+
+        public void AddEntity(Movie entity)
+        {
+            MovieDatabase.MovieId++;
+            entity.Id = MovieDatabase.MovieId;
+            MovieDatabase.Movies.Add(entity);
         }
 
 
-        public T GetById(int id)
+        public Movie GetById(int id)
         {
-            return GetAll().FirstOrDefault(e => e.Id == id);
+            return MovieDatabase.Movies.FirstOrDefault(m => m.Id == id);
         }
-
-
-        public void AddEnity(T entity)
-        {
-            GetAll().Add(entity);
-        }
-
-
-
     }
 }

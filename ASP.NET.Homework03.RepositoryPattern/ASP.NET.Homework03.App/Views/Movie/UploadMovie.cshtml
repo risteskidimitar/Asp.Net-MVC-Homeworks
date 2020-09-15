@@ -1,6 +1,6 @@
 ﻿@model UploadMovieVM
 @{
-    ViewData["Title"] = "UploadMovie";
+    ViewData["Title"] = "UploadMovieVM";
 }
 
 <h2>UploadMovie</h2>
@@ -19,12 +19,15 @@
     <label asp-for="@Model.Email"></label>
     <input asp-for="@Model.Email" /><br />
 
+
     <h3>Movie info:</h3>
     <label asp-for="@Model.Title"></label>
     <input asp-for="@Model.Title" /><br />
 
+
     <label asp-for="@Model.Price"></label>
     <input asp-for="@Model.Price" /><br />
+    <span asp-validation-for="Price" class=" text-danger"></span><br />
 
     <label asp-for="@Model.Genre"></label>
     <select asp-for="@Model.Genre" asp-items="Html.GetEnumSelectList<Genre>()"></select><br />
@@ -34,15 +37,19 @@
 
     <label asp-for="@Model.ReleaseDate"></label>
     <input asp-for="@Model.ReleaseDate" /><br />
+    <span asp-validation-for="@Model.ReleaseDate class=" text-danger"></span>
 
     <label asp-for="@Model.Rating"></label>
     <input asp-for="@Model.Rating" /><br />
+    <span asp-validation-for="@Model.Rating" class=" text-danger"></span>
 
     <label asp-for="@Model.Duration"></label>
     <input asp-for="@Model.Duration" /><br />
+    <span asp-validation-for="@Model.Duration" class=" text-danger"></span>
 
     <label asp-for="@Model.Link"></label>
     <input asp-for="@Model.Link" /><br />
+    <span asp-validation-for="Link" class=" text-danger"></span>
 
     <button type="submit" class="btn btn-primary">Uplaod movie</button>
 

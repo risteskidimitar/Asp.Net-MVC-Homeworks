@@ -8,15 +8,16 @@ namespace ASP.NET.Homework03.BusinessLayer.ViewModels
 {
     public class UploadMovieVM
     {
-        [Required]
+
         [Display(Name = "Enter your email if you are Admin")]
         public string Email { get; set; }
 
         public int Id { get; set; }
-        [Required]
+
         [Display(Name = "Title of Movie")]
         public string Title { get; set; }
-        [Required]
+
+        [Required(ErrorMessage = "Price is required - custom")]
         [Display(Name = "Enter price in MKD")]
         public double Price { get; set; }
 
@@ -24,13 +25,14 @@ namespace ASP.NET.Homework03.BusinessLayer.ViewModels
 
         [Display(Name = "Macedonian subtitele is included?")]
         public bool MacedonianSubtitle { get; set; }
-        [Required]
+
+        [Required(ErrorMessage = "year is required - custom")]
         [Display(Name = "Year of release")]
         public int ReleaseDate { get; set; }
-        [Required]
+        [Required(ErrorMessage = "Rating is required - custom")]
         [Display(Name = "IMDB rating is")]
         public float Rating { get; set; }
-        [Required]
+        [Required(ErrorMessage = "Duration is required - custom")]
         [Display(Name = "Duration in minutes")]
         public int Duration { get; set; }
         [Display(Name = "IMDB link")]

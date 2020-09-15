@@ -1,6 +1,8 @@
-﻿using ASP.NET.Homework03.BusinessLayer.Interfaces;
+﻿using ASP.NET.Homework03.BusinessLayer.Helper;
+using ASP.NET.Homework03.BusinessLayer.Interfaces;
 using ASP.NET.Homework03.BusinessLayer.ViewModels;
 using ASP.NET.Homework03.DataLayer.Domain;
+using ASP.NET.Homework03.DataLayer.Domain.Enum;
 using ASP.NET.Homework03.DataLayer.Interfaces;
 using ASP.NET.Homework03.DataLayer.Repositories;
 using System;
@@ -12,15 +14,15 @@ namespace ASP.NET.Homework03.BusinessLayer.Services
 {
     public class MovieService : IMovieService
     {
-        public readonly IMovieRepository<Movie> _movieRepository;
-        public readonly IMovieRepository<User> _userRepositry;
-        public readonly IMovieRepository<OrderMovieStatsHistory> _orderRepositry;
-
+        public readonly IGenericRepository<Movie> _movieRepository;
+        public readonly IGenericRepository<OrderMovieStatsHistory> _orderRepository;
+        public readonly IGenericRepository<User> _userRepository;
         public MovieService()
         {
-            _movieRepository = new MovieRepository<Movie>();
-            _userRepositry = new MovieRepository<User>();
-            _orderRepositry = new MovieRepository<OrderMovieStatsHistory>();
+            _movieRepository = new MovieRepository();
+            _orderRepository = new OrderRepository();
+            _userRepository = new UserRepository();
+
         }
         public List<MovieDetailsVM> GetAllMovies()
         {
@@ -28,60 +30,91 @@ namespace ASP.NET.Homework03.BusinessLayer.Services
             { Id = m.Id, Duration = m.Duration, Link = m.Link, Price = m.Price, Genre = m.Genre, Rating = m.Rating, ReleaseDate = m.ReleaseDate, Title = m.Title }).ToList();
         }
 
-        public bool MovieById(OrderDetailsVM orderDetails)
+        public HelperClass MovieById(OrderDetailsVM orderDetails)
         {
             var movie = _movieRepository.GetById(orderDetails.IdOfMovie);
+            var helper = new HelperClass();
+            helper.OrderDetailsVM = orderDetails;
 
             if (movie == null)
             {
-                return false;
+                helper.Message = "There is no movie like that, try again";
+                return helper;
             }
 
             var user = new User()
             {
-                Id = _userRepositry.GetAll().Count + 1,
                 FirstName = orderDetails.FirstName,
                 LastName = orderDetails.LastName,
                 Email = orderDetails.Email,
                 Phone = orderDetails.Phone
             };
 
-
-            if (_userRepositry.GetAll()
-                .FirstOrDefault(u => u.Email.ToLower().Trim() == user.Email.ToLower().Trim()) == null)
+            if (string.IsNullOrEmpty(user.Email))
             {
-                _userRepositry.AddEnity(user);
+                helper.Message = "You must have valid email";
+                return helper;
             }
 
+            if (_userRepository.GetAll()
+                .SingleOrDefault(u => u.Email.ToLower().Trim() == user.Email.ToLower().Trim()) == null)
+            {
+                _userRepository.AddEntity(user);
+            }
             var stats = new OrderMovieStatsHistory()
             {
-                Id = _orderRepositry.GetAll().Count + 1,
                 MovieId = movie.Id,
                 UserId = user.Id
             };
+            _orderRepository.AddEntity(stats);
 
-            _orderRepositry.AddEnity(stats);
-            return true;
+            return helper;
         }
 
-        public string UploadMovie(UploadMovieVM uploadMovieVM)
+        public HelperClass UploadMovie(UploadMovieVM uploadMovieVM)
         {
-            var check = "ok";
-            var allUsers = _userRepositry.GetAll();
+            var helper = new HelperClass();
+            helper.UploadMovieVM = uploadMovieVM;
+            var allUsers = _userRepository.GetAll();
             var allMovies = _movieRepository.GetAll();
 
-            if (allUsers.FirstOrDefault(u => u.Email.ToLower().Trim() == uploadMovieVM.Email.ToLower().Trim()) == null)
+
+            if (string.IsNullOrWhiteSpace(uploadMovieVM.Email))
             {
-                return check = "admin";
+                helper.Message = "Enter correnct Email";
+                return helper;
             }
-            if (allMovies.FirstOrDefault(m => m.Title.ToLower().Trim() == uploadMovieVM.Title.ToLower().Trim()) != null)
+            var oldUser = allUsers.FirstOrDefault(u => u.Email.ToLower().Trim() == uploadMovieVM.Email.ToLower().Trim());
+            if (oldUser == null)
             {
-                return check = "movie";
+                helper.Message = "You are Email is not correct";
+                return helper;
+            }
+            if (oldUser.TypeOfUser != TypeOfUser.AdminUser)
+            {
+                helper.Message = "You are not Admin";
+                return helper;
             }
 
+
+            if (string.IsNullOrWhiteSpace(uploadMovieVM.Title))
+            {
+                helper.Message = "Enter Title";
+                return helper;
+
+            }
+
+            var oldmovie = allMovies.FirstOrDefault(m => m.Title.ToLower().Trim() == uploadMovieVM.Title.ToLower().Trim());
+            if (oldmovie != null)
+            {
+                helper.Message = "The movie is already uploaded... exists"; ;
+                return helper;
+            }
+            // TODO mi go pamti filmot BUG
+
+            // TO DO |!ModelState.IsValid with atribute View The value '' is invalid.mesto custom poraka
             var newMovie = new Movie()
             {
-                Id = _movieRepository.GetAll().Count + 1,
                 Title = uploadMovieVM.Title,
                 Duration = uploadMovieVM.Duration,
                 Genre = uploadMovieVM.Genre,
@@ -92,8 +125,9 @@ namespace ASP.NET.Homework03.BusinessLayer.Services
                 ReleaseDate = uploadMovieVM.ReleaseDate,
             };
 
-            _movieRepository.AddEnity(newMovie);
-            return check;
+            _movieRepository.AddEntity(newMovie);
+            return helper;
+
         }
     }
 }
