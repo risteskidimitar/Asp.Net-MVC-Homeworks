@@ -112,7 +112,6 @@ namespace ASP.NET.Homework03.BusinessLayer.Services
             }
             // TODO mi go pamti filmot BUG
 
-            // TO DO |!ModelState.IsValid with atribute View The value '' is invalid.mesto custom poraka
             var newMovie = new Movie()
             {
                 Title = uploadMovieVM.Title,
