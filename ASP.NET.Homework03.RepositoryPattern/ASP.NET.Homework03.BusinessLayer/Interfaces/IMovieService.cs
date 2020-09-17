@@ -9,7 +9,7 @@ namespace ASP.NET.Homework03.BusinessLayer.Interfaces
     public interface IMovieService
     {
         List<MovieDetailsVM> GetAllMovies();
-        HelperClass MovieById(OrderDetailsVM orderDetails);
-        HelperClass UploadMovie(UploadMovieVM uploadMovieVM);
+        ResultsWrapperHelper MovieById(OrderDetailsVM orderDetails);
+        ResultsWrapperHelper UploadMovie(UploadMovieVM uploadMovieVM);
     }
 }

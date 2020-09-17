@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "XGveEUMeBmJj0OlE+S++YnlalPUV6WK5YehsIrs8F3IAWb0VcT2jnwr7bQA3pa1Lkd6MXbfsRU7Kd9c9CPhRWg==",
+  "dgSpecHash": "+mye85q218gk8zJXvjqAbOln2r+8EPyvO+/WguheO+4mo8HoUzlciSsvRQjwXfZws2O9Ge7aTLALHXDD08tkAQ==",
   "success": true,
   "projectFilePath": "D:\\SEDC_19\\08_Asp.Net-MVC\\Homeworks\\Asp.Net-MVC-Homeworks\\ASP.NET.Homework03.RepositoryPattern\\ASP.NET.Homework03.BusinessLayer\\ASP.NET.Homework03.BusinessLayer.csproj",
   "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.extensions.dependencyinjection\\2.1.1\\microsoft.extensions.dependencyinjection.2.1.1.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.extensions.dependencyinjection.abstractions\\2.1.1\\microsoft.extensions.dependencyinjection.abstractions.2.1.1.nupkg.sha512",
     "C:\\Users\\dimit\\.nuget\\packages\\microsoft.netcore.app\\2.1.0\\microsoft.netcore.app.2.1.0.nupkg.sha512",
     "C:\\Users\\dimit\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.1.0\\microsoft.netcore.dotnetapphost.2.1.0.nupkg.sha512",
     "C:\\Users\\dimit\\.nuget\\packages\\microsoft.netcore.dotnethostpolicy\\2.1.0\\microsoft.netcore.dotnethostpolicy.2.1.0.nupkg.sha512",

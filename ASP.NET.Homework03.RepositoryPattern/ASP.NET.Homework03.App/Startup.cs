@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ASP.NET.Homework03.BusinessLayer.Helper;
 using ASP.NET.Homework03.BusinessLayer.Interfaces;
 using ASP.NET.Homework03.BusinessLayer.Services;
 using Microsoft.AspNetCore.Builder;
@@ -36,6 +37,10 @@ namespace ASP.NET.Homework03.App
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
             //Dependency Injection
+            DependencyInjectionHelper.RegisterRepositories(services);
+
+            services.AddTransient<IMovieService, MovieService>();
+        
             services.AddTransient<IJsonOrders, JsonOrdersService>();
 
         }

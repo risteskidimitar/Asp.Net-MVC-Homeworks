@@ -77,7 +77,7 @@ using ASP.NET.Homework03.DataLayer.Domain.Enum;
             WriteLiteral("\n<p>--------------------------------</p>\n\n<h1>Movie App</h1>\n<h3>The best app for buying special editions of the movies</h3>\n\n<div>\n    ");
             EndContext();
             BeginContext(203, 101, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "21b5eeccbd1a4dc485920681d921f7fb", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "93578f4abaae4928b2798b40f7978ba8", async() => {
                 BeginContext(275, 25, true);
                 WriteLiteral("Click here to Buy a Movie");
                 EndContext();
@@ -102,7 +102,7 @@ using ASP.NET.Homework03.DataLayer.Domain.Enum;
             WriteLiteral("\n    ");
             EndContext();
             BeginContext(309, 123, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f172b1fedc4545e0ab05821dfddc1dcc", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3a99c277777242c6a6d2714aeac92118", async() => {
                 BeginContext(384, 44, true);
                 WriteLiteral("Click here to Upload a Movie(Only for Admin)");
                 EndContext();
@@ -136,7 +136,7 @@ using ASP.NET.Homework03.DataLayer.Domain.Enum;
             WriteLiteral("<il>\n    ");
             EndContext();
             BeginContext(512, 49, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "4744b8c6b6724b95b7820ad36cc30304", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "f56a0af3471747068c951e1cc508f44d", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_TagHelpers_PartialTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper>();

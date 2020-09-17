@@ -23,4 +23,3 @@ D:\SEDC_19\08_Asp.Net-MVC\Homeworks\Asp.Net-MVC-Homeworks\ASP.NET.Homework03.Rep
 D:\SEDC_19\08_Asp.Net-MVC\Homeworks\Asp.Net-MVC-Homeworks\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.DataLayer\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.DataLayer.csproj.CoreCompileInputs.cache
 D:\SEDC_19\08_Asp.Net-MVC\Homeworks\Asp.Net-MVC-Homeworks\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.DataLayer\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.DataLayer.dll
 D:\SEDC_19\08_Asp.Net-MVC\Homeworks\Asp.Net-MVC-Homeworks\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.DataLayer\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.DataLayer.pdb
-D:\SEDC_19\08_Asp.Net-MVC\Homeworks\Asp.Net-MVC-Homeworks\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.DataLayer\obj\Debug\netcoreapp2.1\ASP.NET.Homework03.DataLayer.csprojAssemblyReference.cache

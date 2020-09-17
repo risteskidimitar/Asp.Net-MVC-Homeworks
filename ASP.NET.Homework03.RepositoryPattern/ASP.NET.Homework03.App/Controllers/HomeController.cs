@@ -15,9 +15,9 @@ namespace ASP.NET.Homework03.App.Controllers
     {
         private readonly IMovieService _movieService;
 
-        public HomeController()
+        public HomeController(IMovieService movieService)
         {
-            _movieService = new MovieService();
+            _movieService = movieService;
         }
 
         public IActionResult Index()

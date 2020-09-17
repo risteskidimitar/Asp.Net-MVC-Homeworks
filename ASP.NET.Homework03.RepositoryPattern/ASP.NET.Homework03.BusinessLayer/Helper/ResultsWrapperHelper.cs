@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ASP.NET.Homework03.BusinessLayer.Helper
 {
-    public class HelperClass
+    public class ResultsWrapperHelper
     {
         public MovieDetailsVM MovieDetailsVM { get; set; }
         public OrderDetailsVM OrderDetailsVM { get; set; }

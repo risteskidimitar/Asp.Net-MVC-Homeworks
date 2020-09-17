@@ -10,7 +10,6 @@ namespace ASP.NET.Homework03.App.Controllers
 {
     public class OrderController : Controller
 
-        //Dependency Injection
     {
         private readonly IJsonOrders _jsonOrders;
         public OrderController(IJsonOrders jsonOrdersService)

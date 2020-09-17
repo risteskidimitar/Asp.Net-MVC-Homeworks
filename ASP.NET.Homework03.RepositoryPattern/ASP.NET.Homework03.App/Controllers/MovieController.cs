@@ -14,9 +14,9 @@ namespace ASP.NET.Homework03.App.Controllers
     {
         private readonly IMovieService _movieService;
 
-        public MovieController()
+        public MovieController(IMovieService movieService)
         {
-            _movieService = new MovieService();
+            _movieService = movieService;
         }
 
         [HttpGet("get-movie")]
@@ -29,7 +29,7 @@ namespace ASP.NET.Homework03.App.Controllers
         [HttpPost("get-movie")]
         public IActionResult GetMovie(OrderDetailsVM getMovie)
         {
-            HelperClass helper = _movieService.MovieById(getMovie);
+            ResultsWrapperHelper helper = _movieService.MovieById(getMovie);
             if (!string.IsNullOrEmpty(helper.Message)) return RedirectToAction("GetMovie", new { error = helper.Message });
             if (!ModelState.IsValid) return View("GetMovie", getMovie);
          
@@ -49,7 +49,7 @@ namespace ASP.NET.Homework03.App.Controllers
         {
             if (!ModelState.IsValid) return View("UploadMovie", uploadMovie);
 
-            HelperClass helper = _movieService.UploadMovie(uploadMovie);
+            ResultsWrapperHelper helper = _movieService.UploadMovie(uploadMovie);
         
             if (!string.IsNullOrEmpty(helper.Message)) 
             {

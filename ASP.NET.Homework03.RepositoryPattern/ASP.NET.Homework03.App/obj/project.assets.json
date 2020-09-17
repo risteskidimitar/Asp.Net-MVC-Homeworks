@@ -4339,6 +4339,7 @@
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
           "ASP.NET.Homework03.DataLayer": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection": "2.1.1",
           "Newtonsoft.Json": "12.0.3"
         },
         "compile": {

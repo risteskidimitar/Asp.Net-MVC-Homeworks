@@ -17,23 +17,24 @@ namespace ASP.NET.Homework03.BusinessLayer.Services
         public readonly IGenericRepository<Movie> _movieRepository;
         public readonly IGenericRepository<OrderMovieStatsHistory> _orderRepository;
         public readonly IGenericRepository<User> _userRepository;
-        public MovieService()
+        public MovieService(IGenericRepository<Movie> movieRepository,
+            IGenericRepository<OrderMovieStatsHistory> orderRepository, IGenericRepository<User> userRepository)
         {
-            _movieRepository = new MovieRepository();
-            _orderRepository = new OrderRepository();
-            _userRepository = new UserRepository();
+            _movieRepository = movieRepository;
+            _orderRepository = orderRepository;
+            _userRepository = userRepository;
 
         }
         public List<MovieDetailsVM> GetAllMovies()
         {
-            return _movieRepository.GetAll().Select(m => new MovieDetailsVM
-            { Id = m.Id, Duration = m.Duration, Link = m.Link, Price = m.Price, Genre = m.Genre, Rating = m.Rating, ReleaseDate = m.ReleaseDate, Title = m.Title }).ToList();
+            var allMovies = _movieRepository.GetAll();
+            return MapperHelper.MapMovieModelsToMovieDetailsVm(allMovies);
         }
 
-        public HelperClass MovieById(OrderDetailsVM orderDetails)
+        public ResultsWrapperHelper MovieById(OrderDetailsVM orderDetails)
         {
             var movie = _movieRepository.GetById(orderDetails.IdOfMovie);
-            var helper = new HelperClass();
+            var helper = new ResultsWrapperHelper();
             helper.OrderDetailsVM = orderDetails;
 
             if (movie == null)
@@ -42,13 +43,7 @@ namespace ASP.NET.Homework03.BusinessLayer.Services
                 return helper;
             }
 
-            var user = new User()
-            {
-                FirstName = orderDetails.FirstName,
-                LastName = orderDetails.LastName,
-                Email = orderDetails.Email,
-                Phone = orderDetails.Phone
-            };
+            var user = MapperHelper.MapOrderDetailsVmToUserModel(orderDetails);
 
             if (string.IsNullOrEmpty(user.Email))
             {
@@ -71,9 +66,9 @@ namespace ASP.NET.Homework03.BusinessLayer.Services
             return helper;
         }
 
-        public HelperClass UploadMovie(UploadMovieVM uploadMovieVM)
+        public ResultsWrapperHelper UploadMovie(UploadMovieVM uploadMovieVM)
         {
-            var helper = new HelperClass();
+            var helper = new ResultsWrapperHelper();
             helper.UploadMovieVM = uploadMovieVM;
             var allUsers = _userRepository.GetAll();
             var allMovies = _movieRepository.GetAll();
@@ -96,7 +91,6 @@ namespace ASP.NET.Homework03.BusinessLayer.Services
                 return helper;
             }
 
-
             if (string.IsNullOrWhiteSpace(uploadMovieVM.Title))
             {
                 helper.Message = "Enter Title";
@@ -109,19 +103,8 @@ namespace ASP.NET.Homework03.BusinessLayer.Services
                 helper.Message = "The movie is already uploaded... exists"; ;
                 return helper;
             }
-            // TODO mi go pamti filmot BUG
 
-            var newMovie = new Movie()
-            {
-                Title = uploadMovieVM.Title,
-                Duration = uploadMovieVM.Duration,
-                Genre = uploadMovieVM.Genre,
-                Link = uploadMovieVM.Link,
-                MacedonianSubtitle = uploadMovieVM.MacedonianSubtitle,
-                Price = uploadMovieVM.Price,
-                Rating = uploadMovieVM.Rating,
-                ReleaseDate = uploadMovieVM.ReleaseDate,
-            };
+            var newMovie = MapperHelper.MapUploadMovieVmToMovieModel(uploadMovieVM);
 
             _movieRepository.AddEntity(newMovie);
 

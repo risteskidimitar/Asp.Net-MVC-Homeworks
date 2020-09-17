@@ -1,4 +1,5 @@
 ﻿using ASP.NET.Homework03.BusinessLayer.DataTransferModels;
+using ASP.NET.Homework03.BusinessLayer.Helper;
 using ASP.NET.Homework03.BusinessLayer.Interfaces;
 using ASP.NET.Homework03.DataLayer.Domain;
 using ASP.NET.Homework03.DataLayer.Interfaces;
@@ -18,12 +19,14 @@ namespace ASP.NET.Homework03.BusinessLayer.Services
         public readonly IGenericRepository<OrderMovieStatsHistory> _orderRepository;
         public readonly IGenericRepository<User> _userRepository;
 
-        public JsonOrdersService()
+        public JsonOrdersService(IGenericRepository<Movie> movieRepository,
+            IGenericRepository<OrderMovieStatsHistory> orderRepository, IGenericRepository<User> userRepository)
         {
-            _movieRepository = new MovieRepository();
-            _orderRepository = new OrderRepository();
-            _userRepository = new UserRepository();
+            _movieRepository = movieRepository;
+            _orderRepository = orderRepository;
+            _userRepository = userRepository;
         }
+
         public List<OrderMovieStatsDto> JsonOrders()
         {
             var orders = _orderRepository.GetAll();
@@ -33,30 +36,10 @@ namespace ASP.NET.Homework03.BusinessLayer.Services
                 var movie = _movieRepository.GetAll().FirstOrDefault(m => m.Id == order.MovieId);
                 var user = _userRepository.GetAll().FirstOrDefault(u => u.Id == order.UserId);
 
-                var satsDto = new OrderMovieStatsDto()
-                {
-                    OrderId = order.Id,
-                    Movie = new MovieDto()
-                    {
-                        Id = movie.Id,
-                        Title = movie.Title,
-                        Duration = movie.Duration,
-                        Genre = movie.Genre,
-                        Price = movie.Price,
-                        Rating = movie.Rating,
-                        ReleaseDate = movie.ReleaseDate
-                    },
-                    User = new UserDto()
-                    {
-                        FullName = $"{user.FirstName} {user.FirstName}",
-                        Id = user.Id,
-                        Email = user.Email,
-                        Phone = user.Phone
-                    }
-                };
-
-               listOfOrdersDto.Add(satsDto);
+                var satsDto = MapperHelper.MapOrderToOrderMovieStatsDtoModel(order, movie, user);
+                listOfOrdersDto.Add(satsDto);
             }
+
             return listOfOrdersDto;
         }
     }
