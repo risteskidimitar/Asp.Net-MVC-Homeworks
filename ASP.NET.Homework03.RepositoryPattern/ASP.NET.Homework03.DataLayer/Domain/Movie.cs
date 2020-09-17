@@ -10,7 +10,7 @@ namespace ASP.NET.Homework03.DataLayer.Domain
         public string Title { get; set; }
         public double Price { get; set; }
         public Genre Genre { get; set; }
-        public bool MacedonianSubtitle { get; set; }
+        public bool HasMacedonianSubtitle { get; set; }
         public int ReleaseDate { get; set; }
         public float Rating { get; set; }
         public int Duration { get; set; }

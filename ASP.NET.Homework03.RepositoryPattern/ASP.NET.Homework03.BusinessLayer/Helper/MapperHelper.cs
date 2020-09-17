@@ -35,7 +35,7 @@ namespace ASP.NET.Homework03.BusinessLayer.Helper
                 Duration = uploadMovieVM.Duration,
                 Genre = uploadMovieVM.Genre,
                 Link = uploadMovieVM.Link,
-                MacedonianSubtitle = uploadMovieVM.MacedonianSubtitle,
+                HasMacedonianSubtitle = uploadMovieVM.MacedonianSubtitle,
                 Price = uploadMovieVM.Price,
                 Rating = uploadMovieVM.Rating,
                 ReleaseDate = uploadMovieVM.ReleaseDate,
