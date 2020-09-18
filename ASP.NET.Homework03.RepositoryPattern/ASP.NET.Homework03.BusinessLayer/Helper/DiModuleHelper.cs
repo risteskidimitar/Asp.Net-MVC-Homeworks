@@ -8,7 +8,7 @@ using System.Text;
 
 namespace ASP.NET.Homework03.BusinessLayer.Helper
 {
-    public static class DependencyInjectionHelper
+    public static class DiModuleHelper
     {
         public static IServiceCollection RegisterRepositories(IServiceCollection services)
         {

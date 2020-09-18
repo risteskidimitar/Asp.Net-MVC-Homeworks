@@ -13,8 +13,16 @@ namespace ASP.NET.Homework03.BusinessLayer.Helper
         public static List<MovieDetailsVM> MapMovieModelsToMovieDetailsVm(List<Movie> movies)
         {
             return movies.Select(m => new MovieDetailsVM
-            { Id = m.Id, Duration = m.Duration, Link = m.Link, Price = m.Price, Genre = m.Genre, 
-                Rating = m.Rating, ReleaseDate = m.ReleaseDate, Title = m.Title }).ToList();
+            {
+                Id = m.Id,
+                Duration = m.Duration,
+                Link = m.Link,
+                Price = m.Price,
+                Genre = m.Genre,
+                Rating = m.Rating,
+                ReleaseDate = m.ReleaseDate,
+                Title = m.Title
+            }).ToList();
         }
 
         public static User MapOrderDetailsVmToUserModel(OrderDetailsVM orderDetailsVM)
@@ -76,7 +84,6 @@ namespace ASP.NET.Homework03.BusinessLayer.Helper
             };
 
         }
-
 
     }
 }

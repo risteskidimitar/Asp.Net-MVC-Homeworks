@@ -31,7 +31,7 @@ namespace ASP.NET.Homework03.BusinessLayer.Services
         {
             var orders = _orderRepository.GetAll();
             var listOfOrdersDto = new List<OrderMovieStatsDto>();
-            foreach (var order in orders)
+            foreach (var order in orders)//TODO : orders.Select(o=> new ...)
             {
                 var movie = _movieRepository.GetAll().FirstOrDefault(m => m.Id == order.MovieId);
                 var user = _userRepository.GetAll().FirstOrDefault(u => u.Id == order.UserId);

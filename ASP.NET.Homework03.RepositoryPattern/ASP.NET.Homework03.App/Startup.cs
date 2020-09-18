@@ -37,7 +37,7 @@ namespace ASP.NET.Homework03.App
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
             //Dependency Injection
-            DependencyInjectionHelper.RegisterRepositories(services);
+            DiModuleHelper.RegisterRepositories(services);
 
             services.AddTransient<IMovieService, MovieService>();
         
