@@ -1,0 +1,8 @@
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\Asp.Net-MVC-Homeworks\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.DataLayer\bin\Debug\netcoreapp3.1\ASP.NET.Homework03.DataLayer.deps.json
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\Asp.Net-MVC-Homeworks\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.DataLayer\bin\Debug\netcoreapp3.1\ASP.NET.Homework03.DataLayer.dll
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\Asp.Net-MVC-Homeworks\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.DataLayer\bin\Debug\netcoreapp3.1\ASP.NET.Homework03.DataLayer.pdb
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\Asp.Net-MVC-Homeworks\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.DataLayer\obj\Debug\netcoreapp3.1\ASP.NET.Homework03.DataLayer.AssemblyInfoInputs.cache
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\Asp.Net-MVC-Homeworks\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.DataLayer\obj\Debug\netcoreapp3.1\ASP.NET.Homework03.DataLayer.AssemblyInfo.cs
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\Asp.Net-MVC-Homeworks\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.DataLayer\obj\Debug\netcoreapp3.1\ASP.NET.Homework03.DataLayer.csproj.CoreCompileInputs.cache
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\Asp.Net-MVC-Homeworks\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.DataLayer\obj\Debug\netcoreapp3.1\ASP.NET.Homework03.DataLayer.dll
+D:\SEDC_19\08_Asp.Net-MVC\Homeworks\Asp.Net-MVC-Homeworks\ASP.NET.Homework03.RepositoryPattern\ASP.NET.Homework03.DataLayer\obj\Debug\netcoreapp3.1\ASP.NET.Homework03.DataLayer.pdb

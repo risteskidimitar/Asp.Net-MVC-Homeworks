@@ -4352,6 +4352,11 @@
       "ASP.NET.Homework03.DataLayer/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "2.1.1",
+          "Microsoft.EntityFrameworkCore.Design": "2.1.1",
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.1"
+        },
         "compile": {
           "bin/placeholder/ASP.NET.Homework03.DataLayer.dll": {}
         },
